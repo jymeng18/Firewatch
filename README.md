@@ -1,4 +1,4 @@
-# 🔥 Firewatch
+# Firewatch
 
 > **Raising awareness about environmental issues and promoting the UN Sustainable Development Goals**
 
@@ -42,74 +42,6 @@ This project directly supports:
 ### AI & Machine Learning
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-## Quick Start
-
-### Prerequisites
-- **Node.js** (v16 or higher)
-- **Python** (v3.8 or higher)
-- **Git**
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/Firewatch.git
-   cd Firewatch
-   ```
-
-2. **Set up the Backend**
-   ```bash
-   # Install Python dependencies
-   pip install -r requirements.txt
-   
-   # Start the Flask server
-   cd backend
-   python run.py
-   ```
-   The backend will run on `http://localhost:5001`
-
-3. **Set up the Frontend**
-   ```bash
-   # In a new terminal, navigate to frontend
-   cd frontend
-   
-   # Install dependencies
-   npm install
-   
-   # Start the development server
-   npm run dev
-   ```
-   The frontend will run on `http://localhost:5173`
-
-4. **Open your browser**
-   Navigate to `http://localhost:5173` and start exploring!
-
-## How to Use
-
-1. **Search for a location** - Try searching for "Vancouver", "Kamloops", or "British Columbia"
-2. **View predictions** - The map will display predicted fire zones with severity levels
-3. **Explore details** - Click on markers to see confidence scores and raw data
-4. **Learn about risks** - Each prediction includes severity assessment and confidence metrics
-5. **Chat with AI** - Use the Gemini AI chatbot to ask questions about wildfires, environmental safety, and climate action
-
-
-## AI Chatbot
-
-The platform features a **Gemini AI-powered chatbot** that provides:
-
-- **Environmental Education** - Learn about climate change, wildfires, and environmental safety
-- **Wildfire Information** - Get answers about fire prevention, safety tips, and emergency procedures
-- **Interactive Learning** - Ask questions about sustainable development goals and environmental awareness
-- **Real-time Assistance** - Get instant responses to your environmental and safety questions
-
-## Machine Learning
-
-The project uses a **Random Forest Classifier** trained on real wildfire data from VIIRS (Visible Infrared Imaging Radiometer Suite) satellites. The model predicts wildfire probability based on:
-
-- Geographic coordinates
-- Historical fire patterns
-- Environmental factors
-- Seasonal data
 
 ## Design Inspiration
 
@@ -118,10 +50,6 @@ The visual design and atmosphere are inspired by **Firewatch**, the critically a
 *Background imagery credit: Firewatch by Campo Santo*
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Credit
 
 - **Campo Santo** for the beautiful Firewatch game that inspired this project
@@ -129,6 +57,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **UN Sustainable Development Goals** for the environmental mission
 - **Leaflet** for map tiles
 
----
 
-**Made with ❤️ for environmental awareness and climate action*
+
